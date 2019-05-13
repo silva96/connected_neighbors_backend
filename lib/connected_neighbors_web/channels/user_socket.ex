@@ -3,7 +3,7 @@ defmodule ConnectedNeighborsWeb.UserSocket do
 
   ## Channels
   # channel "room:*", ConnectedNeighborsWeb.RoomChannel
-
+  channel "user:chat", ConnectedNeighborsWeb.UserChannel
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After
   # verification, you can put default assigns into
